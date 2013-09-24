@@ -10,6 +10,9 @@ Selenium scripts for performance testing of Moodle sites
 
 ## Usage
 
+You will need to modify the test scripts to use relevant ID numbers for your own system as well as valid
+usernames for the users logging in with each set of tests before these will work in other places.
+
 1.	Copy the `test_cachepurge.php` and `test_login.html` files into the root of your Moodle site
 2.	Edit the `test_login.html` script so that the `action="/login/index.php"` piece points to the
 	login script on your Moodle site (assuming that /login/index.php doesn't already)
