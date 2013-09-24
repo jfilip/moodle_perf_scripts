@@ -14,8 +14,14 @@ You will need to modify the test scripts to use relevant ID numbers for your own
 usernames for the users logging in with each set of tests before these will work in other places.
 
 1.	Copy the `test_cachepurge.php` and `test_login.html` files into the root of your Moodle site
-2.	Edit the `test_login.html` script so that the `action="/login/index.php"` piece points to the
+2.	Edit the `test_login.html` file so that the `action="/login/index.php"` piece points to the
 	login script on your Moodle site (assuming that /login/index.php doesn't already)
+3.	Disable HTTP caching in your browser:
+
+	1.	Type `about:config` into the address bar
+	2.	Search for `network.http.use-cache`
+	3.	Double click the value to set it to *false*
+
 3.	Open the Selenium IDE plugin Firefox and load the `perftest.selenium.html` as a test suite
 4.	Edit the base URL in the Selenium IDE to point to the root of your Moodle site
 5.	Edit the `config.php` file on your Moodle site to add the following lines somewhere before
