@@ -86,7 +86,7 @@ while (!feof($fh) && $line = fgets($fh)) {
 
 fclose($fh);
 
-$filename = 'perf_results_'.date('Ymd-H:i').'.csv';
+$filename = basename($argv[1], '.log').'_analysis.csv';
 
 if (!$fh = fopen($filename, 'w')) {
     die("\n\tError: could not open file $filename for writing!\n\n");
