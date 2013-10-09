@@ -43,3 +43,4 @@ See my original blog posts about performance testing Moodle:
 
 *	[Moodle 2.4.5 vs. 2.5.1 performance and MUC APC cache store](http://jfilip.ca/2013/08/20/moodle-2-4-5-vs-2-5-1-performance-and-muc-apc-cache-store/)
 *	[Moodle performance analysis revisted (now with MariaDB)](http://jfilip.ca/2013/09/24/moodle-performance-analysis-revisted-now-with-mariadb/)
+*	[Moodle performance testing — 2.4.6 vs. 2.5.2 vs. 2.6dev](http://jfilip.ca/2013/09/25/moodle-performance-testing-2-4-6-vs-2-5-2-vs-2-6dev/)
